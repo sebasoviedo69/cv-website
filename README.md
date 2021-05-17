@@ -8,21 +8,6 @@ Front End and  full stack; with techlogies like .NET, Python, NodeJS, Azure DevO
 
 
 # Nubank
-Because like fairy tales, it would be a dream for me to work in this amazing company of unicorns! I have followed a Nubank before arriving in Colombia and I am proud to see how some entrepreneurs from different countries and especially mine, created this incredible company that is changing the way a bank works.
-
-Because like fairy tales, it would be a dream for me to work in this amazing company of unicorns! I have followed a Nubank before arriving in Colombia and I am proud to see how some entrepreneurs from different countries and especially mine, created this incredible company that is changing the way a bank works.
-
-Dear Nubank recruitement team
-
-
-Amante de la tecnologia, el arte y la innovacion; soy sebastian oviedo, profesional en ingenieria en multimedia que inicio hace un par de años y que hoy por hoy no para de soñar. Convertí mi profesion en una pasion y aunque soy muy joven tambien he visto a compañias crecer muy rapido. 
-
-Durante estos dos años de vida profesional he trabajado en equipos SCRUM pequeños como desarrollador full stack en la automatizanción de procesos, integraciones de back y front, desarrollo y mejora de servicios, y CI/CD. Me he descatado por mi compromiso y curiosidad lo que me ha permitido adaptarme con facilidad a los proyectos en los que he sido parte.
-
-Me gustan las historias, por lo tanto soy un fan de los unicornios y de ver como este tipo empresas materializan una idea y revolucionan la manera de hacer las cosas. !Por eso quiero ser parte del equipo Nu!.
-
-
-
 03/04/2021
 
 
