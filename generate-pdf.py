@@ -9,7 +9,7 @@ options = {
          'dpi': 92,
          'page-size': 'A4',
          'page-width': '210',
-         'page-height': '305',
+         'page-height': '350',
          'margin-top': '0.25in',
          'margin-right': '0.25in',  
          'margin-bottom': '0.25in',
@@ -18,7 +18,8 @@ options = {
          'custom-header' : [
             ('Accept-Encoding', 'gzip')
          ],
-         'no-outline': None,
+         "enable-local-file-access": None,
+         'no-outline': None
     }
 
-pdfkit.from_file('index.html', 'docs/CV-sebastian-oviedo.pdf', options=options)
+pdfkit.from_file('/home/sov/Documents/Cv/Cv/index.html', 'CV-sebastian-oviedo.pdf', options=options)
