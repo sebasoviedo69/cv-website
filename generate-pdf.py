@@ -19,7 +19,20 @@ options = {
             ('Accept-Encoding', 'gzip')
          ],
          "enable-local-file-access": None,
-         'no-outline': None
+         'no-outline': None        
     }
 
-pdfkit.from_file('/home/sov/Documents/Cv/Cv/index.html', 'CV-sebastian-oviedo.pdf', options=options)
+
+
+
+
+# Windows
+config = pdfkit.configuration(wkhtmltopdf='C:\\Program Files\\wkhtmltopdf\\bin\\wkhtmltopdf.exe')
+pdfkit.from_file('C:\\Users\\sbssd\\Desktop\\wip\\cv\\index.html', 'CV-sebastian-oviedo.pdf', configuration=config, options=options)
+
+# Linux
+#pdfkit.from_file('/home/sov/Documents/Cv/Cv/index.html', 'CV-sebastian-oviedo.pdf', options=options)
+
+
+# web for generate pdfs
+# https://www.sejda.com/html-to-pdf
