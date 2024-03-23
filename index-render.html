@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Sebastian Oviedo</title>
+    <!-- Fonts -->
+    <link rel="shortcut icon" href="/images/logo-2nv-fav-icon.ico" type="image/x-icon">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Ubuntu&family=Montserrat:wght@400;700&family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      crossorigin="anonymous"
+    />
+
+    <!-- My Styles -->
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+        
+/*
+    #222831
+    #30475e
+    #f2a365
+    #ececec
+
+    #726a95
+    #709fb0
+    #a0c1b8
+    #f4ebc1
+
+    #092532
+    #89c9b8
+    #c7e2b2
+    #e1ffc2
+
+    #243d44
+    #167a8b
+    #2dea8f
+    #24b273
+
+*/
+body{
+    font-family: 'Ubuntu', 'serif';
+}
+
+.content{
+    padding: 2rem;
+    background-color: #167a8b;
+    color: #e0e0e0;
+    border-radius: 3px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Merriweather';
+    text-transform: capitalize !important;
+    margin: 1rem 0;
+    color: #fff;
+    
+}
+
+.fas{
+    padding: 10px 10px 0;
+}
+
+#cv-section{
+    margin: 4rem auto;
+}
+
+#cv-section > .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+/* side section */
+
+.main-side-section{
+    border-radius: 3px 3px 0 0;
+    background-color: #126877;
+    
+}
+
+.side-section{
+    padding-top: 1rem;
+    padding-left: 3rem;
+    background-color: #126877;
+    /*border-color: #726a95;
+    border-style: solid;
+    border-width: 0 3px 0 0;*/
+}
+
+.side-section strong{
+    
+}
+
+/* main section */
+.main-section{
+    padding: 1rem 0 1rem 4rem;
+}
+
+.content-section{
+    padding: 0 0 0 1rem;
+}
+
+.content-subsection{
+    padding: 0 0 0 1rem;
+}
+
+.subtitle{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+}
+
+.description{
+    color: #bbbbbb;
+}
+
+.sangria{
+    padding-left: 3rem;
+}
+
+/* picture */
+.picture{
+    margin-top: 1rem;    
+    text-align: center;
+    padding: 2rem 1rem 1rem;
+}
+
+.picture img{
+    border-radius: 50%;
+    border-width: 5px;
+    border-color: #fff;
+    border-style: solid;
+    width: 60%;
+}
+
+/* resume */
+.resume{
+    rotate: -1deg;
+    background-color: #a0c1b8;
+    /*border-color: #726a95;
+    border-width: 0 0 3px;
+    border-style: solid;*/
+    padding: 1rem;
+    border-radius: 5px;
+    line-height: 2;
+    color: #243d44;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.25);
+}
+
+.resume h1{
+    color: #243d44;
+    text-decoration: underline;
+}
+
+.resume p{
+    padding: 0 1rem;
+    text-align: justify;
+    letter-spacing: 0.05rem;
+}
+
+/* external links */
+.external-links{
+    
+}
+
+.external-links > p > a{
+    color: #e0e0e0;
+    padding: 1rem;
+    outline: none;
+}
+
+.external-links > p > a:hover{
+    color: #2dea8f;
+}
+
+/* sebas does */
+.sebas-does p{
+    margin: 0;
+}
+
+.hobbies{
+    text-align: left;    
+    border-radius: 0 0 3px 3px;
+}
+
+.hobbies p{
+    padding: 0 1rem;
+}
+
+.skills p{
+    line-height: 0.5;
+    margin: 0;
+}
+
+.skills{
+    line-height: 0.5;
+    margin: 0;
+}
+
+/* contact me */
+.contact-me  .external-link2{
+    padding-left: 0;
+}
+
+.contact-me h6{
+    margin-bottom: 0;
+}
+
+/* stars */
+.star{
+    color: #f2a365;
+}
+
+.no-star{
+    color: #323232;
+}
+
+/* hrs */
+
+.hr-line{
+    display: flex;
+    justify-content: left;
+    border-width: 3px;
+    border-color: #89c9b8;
+    width: 90%;
+    text-align: left;
+    margin: 0 0 1rem;
+}
+
+.hr-dots{
+    display: flex;
+    justify-content: left;
+    border-width: 4px 0 0;
+    border-color: #89c9b8;
+    width: 90%;
+    text-align: left;
+    margin: 0 0 1rem;
+    border-style: dotted;
+    width: 30%;
+}
+    </style>
+  </head>
+
+  <body>
+    <section id="cv-section" class="container-fluid page-break-inside:avoid;">
+        <div class="row">
+            <div class="content col-12 col-md-9 col-lg-9">
+                <div class="row">
+                    <!-- picture -->
+                    <div class="picture main-side-section col-4">
+                        <img src="data:image/jpeg;base64,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" alt="sebastian-oviedo-imagen">
+                        <h3>Juan Sebastian <br> Oviedo Vega</h3> 
+                    </div>
+                    <!-- resume -->
+                    <div class="resume main-section col-8">
+                        <h1>resume</h1>
+                        <p class="content-section">
+
+                            Highly motivated and adaptable Multimedia Engineer with experience collaborating in multi-disciplinary teams on diverse projects. Skilled in a broad range of technologies including RPA, full-stack and chatbots. Adept at learning new technologies and adapting to changing project needs.
+
+                        </p>
+                        <p class="content-section"> 
+
+                            All of these projects were built up using tecnlogies like UiPath, VB, Power Automate, NodeJS, Python, .NET, HTML, 
+                            CSS, Javascript, DBs, GIT and Azure.
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- contact me -->
+                    <div class="contact-me side-section col-4">
+                        <br>
+                        <h4>Contact Me</h4>
+                        <hr class="hr-dots">
+                        <div class="reference col-12 external-links">
+                            <p>
+                                <i class="fas fa-phone-alt"></i>311 263 0128</p>
+                            <p>
+                                <i class="fas fa-envelope"></i>sebasoviedo69 
+                                <br> 
+                                <span class="sangria">@gmail.com</span>
+                            </p>
+                            <p>
+                                <i class="fas fa-envelope"></i>
+                                <a class="external-link2" href="http://www.linkedin.com/in/sebastian-oviedo">LinkedIn</a>
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- experience -->
+                    <div class="experience main-section col-8">
+                        <br>
+                        <h4>Experience</h4>
+                        <hr class="hr-line">
+                        <div class="row content-section">
+                            <div class="col-12">
+                                <p>
+                                    <br>
+                                    <i class="fas fa-suitcase"></i>
+                                    <span class="subtitle">Chazey Partners</span>
+                                    <br><br>
+                                    <span class="sangria description">&#9679; Intelligent Automation Solution Design Architect (2 Months)</span>
+                                    <br>
+                                    <span class="sangria description">&#9679; Intelligent Automation Developer (1 Year)</span>
+                                </p> 
+                            </div>
+                        </div>
+                        <div class="row content-section">
+                            <div class="col-12">
+                                <p>
+                                    <br>
+                                    <i class="fas fa-suitcase"></i>
+                                    <span class="subtitle">2NV SAS</span>
+                                    <br><br>
+                                    <span class="sangria description">&#9679; Senior Engineer (1 Year and 1 Month)</span>
+                                    <br>
+                                    <span class="sangria description">&#9679; Semi-Senior Engineer (1 Year and 6 Months)</span>
+                                    <br>
+                                    <span class="sangria description">&#9679; RPA Developer At ECOPETROL (11 Months)</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <!-- references -->
+                    <div class="references side-section col-4">
+                        <h4>References</h4>
+                        <hr class="hr-dots">
+
+                        <div class="reference col-12">
+                            <p><strong>Eng. Rafael Mari</strong><br><span class="description"><i class="fas fa-phone-alt"></i> 310 767 4752</span></p>
+                        </div>
+                        
+                        <div class="reference col-12">                            
+                            <p><strong>Eng. Yamile Güiza</strong> <br><span class="description"><i class="fas fa-phone-alt"></i>321 218 9205</span></p>
+                        </div>
+                    </div>
+                    <!-- education -->
+                    <div class="education main-section col-8">
+                        <h4>Education</h4>
+                        <hr class="hr-line">
+                        <!-- <div class="row content-section">
+                            <div class="col-12">
+                                <p>
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <span class="subtitle">Data Structures and Algorithms</span> (In progress)<br>
+                                    <span class="sangria description">University of California San Diego (Coursera)</span>
+                                </p> 
+                            </div>
+                        </div> -->
+                        <div class="row content-section">
+                            <div class="col-12">
+                                <p>
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <span class="subtitle">Multimedia Engineer</span> <br>
+                                    <span class="sangria description">Universidad Militar Nueva Granada</span>
+                                </p> 
+                            </div>
+                        </div>
+                        <div class="row content-section">
+                            <div class="col-12">
+                                <p>
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <span class="subtitle">Certifications</span> <br>
+                                    <span class="sangria description">RPA, DBA, SCRUM, CRYPTO, WEB, GOOGLE...</span>
+                                </p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">                    
+                    <!-- hobbies -->
+                    <!-- <div class="hobbies side-section col-4">
+                        <h4>Hobbies & interests</h4>
+                        <hr class="hr-dots">
+                        <p>
+                            <em>"I like to draw, I think it is a good way to represent ideas and express feelings. I love to live new experiences and feel extreme sensations".</em>
+                        </p>
+                    </div> -->
+                    <!-- external links -->
+                    <div class="external-links side-section col-4">
+                        <h4>External Links</h4>
+                        <hr class="hr-dots">
+                        <p class="reference">
+                            <a href="https://drive.google.com/file/d/1gIDP6PsgS63pz_pRdZxwVX24As_MJKPc/view?usp=sharing">Portfolio</a>
+                        </p>
+                        <p class="reference">
+                            <a href="https://drive.google.com/file/d/1Gaq20q90O1myvvJIUMus6f_kXFx2z1uP/view?usp=sharing">Support Docs</a>
+                        </p>
+                    </div>
+                    <!-- skills -->
+                    <div class="skills main-section col-8">
+                        <h4>Skills</h4> 
+                        <hr class="hr-line">
+                        <!-- professionals -->
+                        <div class="row content-section">
+                            <div class="col-12">
+                                <h5>Professionals</h5>
+                            </div>
+                            <div class="col-4 content-subsection">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p><i class="fas fa-check"></i>MEDIA</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p><i class="fas fa-check"></i>RPA</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p><i class="fas fa-check"></i>DEV</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-5 content-subsection">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p>
+                                            <span class="star">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>  
+                                            </span>
+                                            <span class="no-star">
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p>
+                                            <span class="star">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                            <span class="no-star">
+                                                <i class="fas fa-star"></i>  
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p>
+                                            <span class="star">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>                                            
+                                            <span class="no-star">
+                                                <i class="fas fa-star"></i>  
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- personals -->
+                        <div class="row content-section">
+                            <div class="col-12">
+                                <h5>Personals</h5>
+                            </div>
+                            <div class="col-4 content-subsection">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p><i class="fas fa-check"></i>Creativity</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p><i class="fas fa-check"></i>Patience</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p><i class="fas fa-check"></i>Curiosity</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-5 content-subsection">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p><i class="fas fa-check"></i>Positivity</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p><i class="fas fa-check"></i>Organisation</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p><i class="fas fa-check"></i>Visualisation</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer-section" class="container-fluid">
+    </footer>
+  </body>
+</html>
