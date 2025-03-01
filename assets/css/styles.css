@@ -1342,6 +1342,14 @@ img {
 	.home__social{
 		transform: translateX(-6rem);
 	}
+
+	.about__info{
+		justify-content: space-around;
+	}
+
+	.skills__content{
+		margin: 1rem;
+	}
 	
 	.services__container{
 		grid-template-columns: repeat(3, 238px);
